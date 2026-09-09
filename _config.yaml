@@ -1,6 +1,6 @@
 # site properties and page defaults
-title: livingwithweather
-subtitle: 
+title: Living With Weather
+subtitle: Research Group - CDU Garramilla
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
@@ -8,7 +8,7 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@livingwithweather.com
+  email: livingwithweather@outlook.com
   orcid: 0000-0001-8713-9213
   google-scholar: ETJoidYAAAAJ
   github: livingwithweather
