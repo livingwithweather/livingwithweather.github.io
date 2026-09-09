@@ -1,1 +1,1 @@
-Sitemap: https://livingwithweather.github.io/livingwithweather/sitemap.xml
+Sitemap: https://livingwithweather.github.io/sitemap.xml
