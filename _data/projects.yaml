@@ -1,4 +1,4 @@
-- title: Cool Dataset
+- title: Workshop 1 
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
@@ -8,7 +8,7 @@
   tags:
     - resource
 
-- title: Cool Package
+- title: Workshop 2
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
@@ -18,7 +18,7 @@
   tags:
     - resource
 
-- title: Cool Tutorial
+- title: Workshop 3
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
@@ -28,7 +28,7 @@
     - resource
     - publication
 
-- title: Cool Web App
+- title: Talk 1
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
@@ -37,7 +37,7 @@
   tags:
     - software
 
-- title: Cool Web Server
+- title: Talk 2
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
