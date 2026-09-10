@@ -28,7 +28,7 @@
     - resource
     - publication
 
-- title: Talk 1
+- title: Workshop 4
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
@@ -37,7 +37,7 @@
   tags:
     - software
 
-- title: Talk 2
+- title: Workshop 5
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
