@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # livingwithweather's Website
+  # Living With Weather's Website
 
   Visit **[livingwithweather.github.io](https://livingwithweather.github.io)** 🚀
 
