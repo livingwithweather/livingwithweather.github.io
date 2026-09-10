@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Learn about our workshops"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
