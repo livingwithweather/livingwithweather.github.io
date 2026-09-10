@@ -580,7 +580,7 @@
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Angelina Aquino">
     
-      <i class="icon fa-solid fa-microscope"></i>
+      <i class="icon fa-solid fa-code"></i>
     
 
     <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -593,7 +593,7 @@
 
     
       <span class="portrait-description">
-        Principal Investigator
+        Research Assistant
       </span>
     
 
