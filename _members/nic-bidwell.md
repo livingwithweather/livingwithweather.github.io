@@ -1,13 +1,13 @@
 ---
-name: Jane Smith
+name: Professor Nic Bidwell
 image: images/photo.jpg
 role: principal-investigator
-affiliation: University of Colorado
+affiliation: Charles Darwin University and Rhodes University
 aliases:
-  - J. Smith
+  - Nicola J. Bidwell
   - J Smith
 links:
-  home-page: https://janesmith.com
+  home-page: https://nicbidwell.com
   orcid: 0000-0001-8713-9213
 ---
 
