@@ -1,8 +1,8 @@
 ---
 name: Ian Gumbula
 image: images/photo.jpg
-description: Research Assistant
-role: programmer
+description: First Nations Governance; Research Assistant
+role: research-assistant
 links:
   email: ian@gmail.com
   twitter: ian
