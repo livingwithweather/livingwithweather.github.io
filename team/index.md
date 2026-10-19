@@ -17,6 +17,4 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-{% include section.html %}
-
 {% include grid.html style="square" content=content %}
