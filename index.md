@@ -29,6 +29,7 @@ Read our most recent publications, revisit key conference talks and learn more a
 {%
   include feature.html
   image="images/VicRiver-small-flood.jpg"
+  caption="Lorem ipsum"
   link="research"
   title="Our Research"
   text=text
