@@ -7,12 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Workshops
 
-- 2023 — Darwin; Ngukurr
-- 2024 — Darwin
-- 2025 — Warruwi
-- Upcoming — Galiwin'ku research visit
+Our Workshops are led under First Nations Governance by CDU Researcher Ian Gumbula, with support from the Living with Weather group team. 
 
-{% include tags.html tags="workshop, talk, resource" %}
+{% include tags.html tags="workshop, talk" %}
 
 {% include search-info.html %}
 
