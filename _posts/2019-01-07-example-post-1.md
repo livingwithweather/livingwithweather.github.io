@@ -1,10 +1,10 @@
 ---
 title: Example post 1
-author: sarah-johnson
+author: nic-bidwell
 tags:
-  - biology
-  - medicine
-  - big data
+  - artificial intelligence
+  - ethical AI
+  - first nations governance
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+This is an example post. 
