@@ -1,11 +1,10 @@
 ---
 name: Professor Nic Bidwell
-image: images/photo.jpg
+image: images/nic.jpg
 role: principal-investigator
 affiliation: Charles Darwin University and Rhodes University
 aliases:
   - Nicola J. Bidwell
-  - J Smith
 links:
   home-page: https://nicbidwell.com
   orcid: 0000-0001-8713-9213
