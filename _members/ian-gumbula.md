@@ -2,6 +2,7 @@
 name: Ian Gumbula
 image: images/photo.jpg
 description: First Nations Governance; Research Assistant
+role: FN-governance
 role: research-assistant
 links:
   email: ian@gmail.com
