@@ -583,7 +583,7 @@
       <i class="icon fa-solid fa-magnifying-glass"></i>
     
 
-    <img src="/images/angel.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/angel.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
 
     
       <span class="portrait-name">
