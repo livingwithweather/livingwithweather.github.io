@@ -3,7 +3,9 @@
 
 # Living With Weather
 
-The Living With Weather research group is .
+The Living With Weather research group is part of the work contributing to the ARC-funded grant [DP240101952: First Nations AI: Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/).
+
+Our team of Western and First Nations scholars aims to develop a systematic account of artificial intelligence and its possibilities in climate change communication in remote First Nations communities in northern Australia. Working under Indigenous governance, we will establish spaces for Indigenous landowners and scientists to come together to probe diverse AI techniques for making sense of climate predictions and risks. We will build the capacity of Indigenous people to conceive and design AI, accounting for divergent languages and knowledge systems. This is expected to lead to more effective and trustworthy communications about extreme weather and climate change, improving the preparedness and responses of remote First Nations communities.
 
 {% include section.html %}
 
@@ -16,7 +18,7 @@ Read our most recent publications, revisit key conference talks and learn more a
 {%
   include button.html
   link="research"
-  text="Publications"
+  text="Check out our most recent releases"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -59,14 +61,12 @@ Hear from First Nations elders, traditional owners and important community membe
 
 {% capture text %}
 
-Our team of Western and First Nations scholars aims to develop a systematic account of artificial intelligence and its possibilities in climate change communication in remote First Nations communities in northern Australia. Working under Indigenous governance, we will establish spaces for Indigenous landowners and scientists to come together to probe diverse AI techniques for making sense of climate predictions and risks. We will build the capacity of Indigenous people to conceive and design AI, accounting for divergent languages and knowledge systems. This is expected to lead to more effective and trustworthy communications about extreme weather and climate change, improving the preparedness and responses of remote First Nations communities.
-
-Living with Weather is a part of the work contributing to the ARC-funded grant [DP240101952: First Nations AI: Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/)
+Learn more about our team of Western and Indigenous scholars
 
 {%
   include button.html
   link="team"
-  text="Learn more about our research group"
+  text="Find out more about our team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
