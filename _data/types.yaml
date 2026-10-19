@@ -6,6 +6,10 @@ principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+FN-governance:
+  icon: fa-solid fa-microscope
+  description: First Nations Governance
+  
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
