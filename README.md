@@ -8,3 +8,6 @@
   Visit **[livingwithweather.github.io](https://livingwithweather.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+
+
+ci: trigger workflow re-run
