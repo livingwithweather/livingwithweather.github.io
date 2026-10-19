@@ -17,12 +17,16 @@ nav:
 
 {% include section.html %}
 
-## Featured
+## Participant Feedback
+
+Coming soon!
+
+## Past Workshops
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## More
+## Past Talks
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}
