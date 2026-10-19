@@ -3,7 +3,7 @@
   image: images/photo.jpg
   description: Workshop led by Ian Gumbula and Prof. Steven Bird
   tags:
-    - resource
+    - workshop
 
 - title: Living With Weather workshop
   subtitle: Warruwi (NT)| July 2025
@@ -11,15 +11,14 @@
   image: images/photo.jpg
   description: This workshop was facilitated by Ian Gumbula with the support of Prof. Nic Bidwell and Jens Cheung.
   tags:
-    - resource
+    - workshop
 
 - title: Living With Weather: First Nations' Governance Workshop
   subtitle: Charles Darwin University, Darwin (NT) | November 12-14, 2024
   image: images/photo.jpg
   description: This workshop was facilitated by Ian Gumbula with the support of Prof. Nic Bidwell, Angel Aquino, and Prof. Steven Bird.
   tags:
-    - resource
-    - publication
+    - workshop
 
 - title: Weather and Climate Communication Workshop
   subtitle: Guluman Child and Family Centre, Ngukurr (NT) | November 14-15, 2023
@@ -27,11 +26,11 @@
   description: This workshop is was facilitated by Ian Gumbula, with the support of Mercy Gumbula, Bureau of Meteorology representatives 
   Josie Matthiesson, Alice Nagy, and Ian Shepherd, and Charles Darwin University researchers Steven Bird and Angelina Aquino.
   tags:
-    - software
+    - workshop
 
 - title: Managing Emergencies on Aboriginal Lands 
   subtitle: NT Emergency Management Symposium • Darwin Convention Centre (NT) | October 13, 2026
   image: images/photo.jpg
   description: This talk was delivered by Prof. Steven Bird, with video contributions from yolgnu elder and lawman, Ian Gumbula. 
   tags:
-    - software
+    - talk
