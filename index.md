@@ -3,11 +3,11 @@
 
 # Living With Weather
 
-An engaging 1-3 sentence description of your lab.
+The Living With Weather research group is .
 
 {% include section.html %}
 
-## Highlights
+## Research Overview
 
 {% capture text %}
 
@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -34,12 +34,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hear from mob and balanda about our work with Remote First Nations Communities in the Northern Territory. 
 
 {%
   include button.html
   link="projects"
-  text="Learn about our workshops"
+  text="Learn more about our workshops"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Our team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
