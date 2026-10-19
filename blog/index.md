@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-News and updates from the _Living with Weather_ research group
+News and updates from the _Living with Weather_ research group.
 
 {% include section.html %}
 
