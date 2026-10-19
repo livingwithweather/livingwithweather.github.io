@@ -7,8 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Workshops
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# 2024 | **Darwin**, **Ngukurr** 
+# 2025 | **Warruwi**
+# Upcoming | **Galiwin'ku research visit**
 
 {% include tags.html tags="publication, resource, website" %}
 
