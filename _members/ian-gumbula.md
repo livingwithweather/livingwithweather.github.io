@@ -1,6 +1,6 @@
 ---
 name: Ian Gumbula
-image: images/photo.jpg
+image: images/ian_gumbala_1.jpg
 description: First Nations Governance; Research Assistant
 role: FN-governance
 links:
