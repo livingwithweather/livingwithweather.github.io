@@ -6,18 +6,18 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Workshops
-
-{%**2024** | Darwin, Ngukurr%}
+{%**2023** | Darwin, Ngukurr%}
+{%**2024** | Darwin%}
 {%**2025** | Warruwi%}
 {%**Upcoming** | Galiwin'ku research visit%}
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="workshop, talk, testimonial" %}
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Participant Feedback
+## Community Feedback
 
 Coming soon!
 
