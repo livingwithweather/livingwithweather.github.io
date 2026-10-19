@@ -11,7 +11,7 @@ The Living With Weather research group is .
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Read our most recent publications, revisit key conference talks and learn more about our work.
 
 {%
   include button.html
@@ -34,12 +34,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Hear from mob and balanda about our work with Remote First Nations Communities in the Northern Territory. 
+Hear from First Nations elders, traditional owners and important community members about our workshops with remote communities in the Northern Territory. [Coming Soon].
 
 {%
   include button.html
   link="projects"
-  text="Learn more about our workshops"
+  text="Learn more about our work"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -59,12 +59,14 @@ Hear from mob and balanda about our work with Remote First Nations Communities i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team of Western and First Nations scholars aims to develop a systematic account of artificial intelligence and its possibilities in climate change communication in remote First Nations communities in northern Australia. Working under Indigenous governance, we will establish spaces for Indigenous landowners and scientists to come together to probe diverse AI techniques for making sense of climate predictions and risks. We will build the capacity of Indigenous people to conceive and design AI, accounting for divergent languages and knowledge systems. This is expected to lead to more effective and trustworthy communications about extreme weather and climate change, improving the preparedness and responses of remote First Nations communities.
+
+Living with Weather is a part of the work contributing to the ARC-funded grant [DP240101952: First Nations AI: Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/)
 
 {%
   include button.html
   link="team"
-  text="Our team"
+  text="Learn more about our research group"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
