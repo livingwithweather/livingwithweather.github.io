@@ -6,10 +6,10 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Workshops
-{% **2023** | Darwin; Ngukurr
-**2024** | Darwin
-**2025** | Warruwi
-**Upcoming** | Galiwin'ku research visit? %}
+{% **2023**  Darwin; Ngukurr
+**2024** Darwin
+**2025** Warruwi
+**Upcoming** Galiwin'ku research visit? %}
 
 {% include tags.html tags="workshop, talk, resource" %}
 
