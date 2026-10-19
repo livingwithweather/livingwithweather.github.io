@@ -14,7 +14,3 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 {% include list.html data="members" component="portrait" filter="role == 'research-assistant'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-{% include grid.html style="square" content=content %}
