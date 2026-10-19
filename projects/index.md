@@ -11,7 +11,7 @@ nav:
 {%**2025** | Warruwi%}
 {%**Upcoming** | Galiwin'ku research visit%}
 
-{% include tags.html tags="workshop, talk, testimonial" %}
+{% include tags.html tags="workshop, talk, resource" %}
 
 {% include search-info.html %}
 
