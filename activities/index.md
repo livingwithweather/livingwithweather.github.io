@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Activities
 
-Our Workshops are led under First Nations Governance by CDU Researcher Ian Gumbula, with support from the Living with Weather group team. 
+This page displays information about recent eents. 
 
 {% include tags.html tags="workshop, talk" %}
 
