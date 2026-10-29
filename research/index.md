@@ -1,11 +1,11 @@
 ---
-title: Research
+title: Resources
 nav:
   order: 1
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Resources
 
 Our most recent publications.
 
