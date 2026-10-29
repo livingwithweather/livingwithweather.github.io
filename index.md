@@ -1,5 +1,4 @@
 ---
----
 
 # Exploring how Artificial Intelligence (AI) can participate in safe communications about ‘living with weather’ for First Nations communities in northern Australia
 
@@ -7,7 +6,7 @@ This is an ARC-funded project, [DP240101952: First Nations AI: Country, Climate,
 
 {% include section.html %}
 
-## Resources
+---
 
 {% capture text %}
 
@@ -65,7 +64,7 @@ Learn more about our team of Western and Indigenous scholars
 {%
   include button.html
   link="people"
-  text="Find out more about our team"
+  text="Find out more about our people"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
