@@ -11,12 +11,6 @@ Our most recent publications.
 
 {% include section.html %}
 
-## Highlighted
-
-{% include citation.html lookup="weather" style="rich" %}
-
-{% include section.html %}
-
 ## All
 
 {% include search-box.html %}
