@@ -1,11 +1,11 @@
 ---
-title: Workshops
+title: Activities
 nav:
   order: 2
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Workshops
+# {% include icon.html icon="fa-solid fa-wrench" %}Activities
 
 Our Workshops are led under First Nations Governance by CDU Researcher Ian Gumbula, with support from the Living with Weather group team. 
 
@@ -15,9 +15,9 @@ Our Workshops are led under First Nations Governance by CDU Researcher Ian Gumbu
 
 {% include section.html %}
 
-## Community Feedback
+## Upcoming Activities
 
-Coming soon!
+To be announced.
 
 ## Past Workshops
 

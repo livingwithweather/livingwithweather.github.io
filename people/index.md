@@ -1,11 +1,11 @@
 ---
-title: Team
+title: People
 nav:
   order: 3
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}Our Team
 
 {% include section.html %}
 
@@ -14,3 +14,5 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 {% include list.html data="members" component="portrait" filter="role == 'research-assistant'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+# {% include icon.html icon="fa-solid fa-users" %}Local Researchers and Cultural Governance

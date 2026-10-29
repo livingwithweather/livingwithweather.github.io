@@ -1,5 +1,5 @@
 ---
-name: Professor Nic Bidwell
+name: Nic Bidwell
 image: images/nic.jpg
 role: principal-investigator
 affiliation: Charles Darwin University and Rhodes University
