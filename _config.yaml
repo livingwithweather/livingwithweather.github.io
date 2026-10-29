@@ -1,7 +1,11 @@
 # site properties and page defaults
 title: Living With Weather
-subtitle: Research Group - CDU Garramilla
-description: An engaging 1-3 sentence description of your lab.
+subtitle: Research Group - Faculty of Science & IT - CDU Garramilla
+url: "https://livingwithweather.github.io"
+baseurl: ""
+description: This is an ARC-funded project, First Nations AI: Country, Climate, Communication, at Charles Darwin University. 
+Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and 
+its possibilities in climate change communication in remote First Nations communities in northern Australia. 
 header: images/background.jpeg
 footer: images/background.jpeg
 proofer: false
@@ -9,11 +13,7 @@ proofer: false
 # site social media and other links
 links:
   email: livingwithweather@outlook.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: 
   github: livingwithweather
-  twitter: livingwithweather
-  youtube: livingwithweather
 
 ### jekyll settings
 
