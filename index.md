@@ -14,6 +14,15 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
 
 {% capture text %}
 
+{%
+  include feature.html
+  image="images/Collage1,jpg"
+  link="activities"
+  title="Resources"
+  text=text
+  caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
+%}
+
 View our resources: Published papers and other communications. 
 
 {%
@@ -26,15 +35,6 @@ View our resources: Published papers and other communications.
 %}
 
 {% endcapture %}
-
-{%
-  include feature.html
-  image="images/Collage1,jpg"
-  link="activities"
-  title="Resources"
-  text=text
-  caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
-%}
 
 {%
   include feature.html
