@@ -1,3 +1,6 @@
+---
+title: Home
+---
 
 # Exploring how Artificial Intelligence (AI) can participate in safe communications about _living with weather_ for First Nations communities in northern Australia
 
