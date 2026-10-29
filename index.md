@@ -11,8 +11,6 @@ This is an ARC-funded project, [DP240101952 First Nations AI Country, Climate, C
 
 {% capture text %}
 
-Read our most recent publications, revisit key conference talks and learn more about our work.
-
 {%
   include button.html
   link="resources"
@@ -60,7 +58,7 @@ Community feedback.
 
 {% capture text %}
 
-Learn more about our team of Western and Indigenous scholars
+Learn more about our people.
 
 {%
   include button.html
