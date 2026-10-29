@@ -1,15 +1,13 @@
 ---
 ---
 
-# Living With Weather
+# Exploring how Artificial Intelligence (AI) can participate in safe communications about ‘living with weather’ for First Nations communities in northern Australia
 
-The Living With Weather research group is part of the work contributing to the ARC-funded grant [DP240101952: First Nations AI: Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/).
-
-Our team of Western and First Nations scholars aims to develop a systematic account of artificial intelligence and its possibilities in climate change communication in remote First Nations communities in northern Australia. Working under Indigenous governance, we will establish spaces for Indigenous landowners and scientists to come together to probe diverse AI techniques for making sense of climate predictions and risks. We will build the capacity of Indigenous people to conceive and design AI, accounting for divergent languages and knowledge systems. This is expected to lead to more effective and trustworthy communications about extreme weather and climate change, improving the preparedness and responses of remote First Nations communities.
+This is an ARC-funded project, [DP240101952: First Nations AI: Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/), at Charles Darwin University. Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and its possibilities in climate change communication in remote First Nations communities in northern Australia. Working under Indigenous governance, we are establishing spaces for Indigenous landowners and scientists to come together to probe diverse AI techniques for making sense of climate predictions and risks. We will build the capacity of Indigenous people to conceive and design AI, accounting for divergent languages and knowledge systems. This is expected to lead to more effective and trustworthy communications about extreme weather and climate change, improving the preparedness and responses of remote First Nations communities.
 
 {% include section.html %}
 
-## Research Overview
+## Resources
 
 {% capture text %}
 
@@ -17,8 +15,8 @@ Read our most recent publications, revisit key conference talks and learn more a
 
 {%
   include button.html
-  link="research"
-  text="Check out our most recent releases"
+  link="resources"
+  text="View"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -30,19 +28,19 @@ Read our most recent publications, revisit key conference talks and learn more a
   include feature.html
   image="images/VicRiver-small-flood.jpg"
   caption="Lorem ipsum"
-  link="research"
-  title="Our Research"
+  link="activities"
+  title="Activities"
   text=text
 %}
 
 {% capture text %}
 
-Hear from First Nations elders, traditional owners and important community members about our workshops with remote communities in the Northern Territory. [Coming Soon].
+Community feedback.
 
 {%
   include button.html
-  link="projects"
-  text="Learn more about our work"
+  link="people"
+  text="View"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -53,7 +51,7 @@ Hear from First Nations elders, traditional owners and important community membe
 {%
   include feature.html
   image="images/Kata-Tjuta-storm.jpg"
-  link="projects"
+  link="activities"
   title="Our Workshops"
   flip=true
   style="bare"
@@ -66,7 +64,7 @@ Learn more about our team of Western and Indigenous scholars
 
 {%
   include button.html
-  link="team"
+  link="people"
   text="Find out more about our team"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -78,7 +76,7 @@ Learn more about our team of Western and Indigenous scholars
 {%
   include feature.html
   image="images/Storm-Robinson.jpg"
-  link="team"
-  title="Our Team"
+  link="people"
+  title="People"
   text=text
 %}
