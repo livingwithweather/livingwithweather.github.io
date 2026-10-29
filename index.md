@@ -20,6 +20,10 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
   caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
 %}
 
+{% capture text %}
+
+View our resources: Published papers and other communications. 
+
 {%
   include button.html
   link="resources"
@@ -29,28 +33,24 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
   style="bare"
 %}
 
-{% capture text %}
-
-View our resources: Published papers and other communications. 
-
 {% endcapture %}
 
 {%
   include feature.html
   image="images/LAM.png"
   link="activities"
-  title="Resources"
+  title="Activities"
   text=text
 %}
 
 {% capture text %}
 
-Community feedback.
+Learn about our research activities: From First Nations community-led workshops to public talks. 
 
 {%
   include button.html
-  link="people"
-  text="View"
+  link="activities"
+  text="Find out more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -61,8 +61,8 @@ Community feedback.
 {%
   include feature.html
   image="images/DKFloodStudy.jpg"
-  link="activities"
-  title="Activities"
+  link="people"
+  title="Our People"
   flip=true
   style="bare"
   text=text
@@ -70,7 +70,7 @@ Community feedback.
 
 {% capture text %}
 
-Learn more about our research activities, including workshops and events.
+Meet our people: Including our core team of First Nations and Western scholars; alongside local researchers, leaders and cultural governance experts.
 
 {%
   include button.html
