@@ -511,19 +511,19 @@
     
       
         <a
-          href="/projects/"
+          href="/activities/"
           data-tooltip="Software, datasets, and more"
         >
-          Workshops
+          Activities
         </a>
       
     
       
         <a
-          href="/team/"
+          href="/people/"
           data-tooltip="About our team"
         >
-          Team
+          People
         </a>
       
     

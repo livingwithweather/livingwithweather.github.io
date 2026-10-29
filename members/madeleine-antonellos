@@ -42,21 +42,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Dr Madeleine Antonellos | Living With Weather</title>
+<title>Madeleine Antonellos | Living With Weather</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Dr Madeleine Antonellos">
+<meta name="title" content="Madeleine Antonellos">
 <meta name="description" content="Research Group - Faculty of Science &amp; IT - CDU Garramilla. This is an ARC-funded project, First Nations AI: Country, Climate, Communication, at Charles Darwin University. Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and its possibilities in climate change communication in remote First Nations communities in northern Australia.">
 
-<meta property="og:title" content="Dr Madeleine Antonellos">
+<meta property="og:title" content="Madeleine Antonellos">
 <meta property="og:site_title" content="Living With Weather">
 <meta property="og:description" content="Research Group - Faculty of Science &amp; IT - CDU Garramilla. This is an ARC-funded project, First Nations AI: Country, Climate, Communication, at Charles Darwin University. Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and its possibilities in climate change communication in remote First Nations communities in northern Australia.">
 <meta property="og:url" content="https://livingwithweather.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Dr Madeleine Antonellos">
+<meta property="twitter:title" content="Madeleine Antonellos">
 <meta property="twitter:description" content="Research Group - Faculty of Science &amp; IT - CDU Garramilla. This is an ARC-funded project, First Nations AI: Country, Climate, Communication, at Charles Darwin University. Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and its possibilities in climate change communication in remote First Nations communities in northern Australia.">
 <meta property="twitter:url" content="https://livingwithweather.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -72,9 +72,9 @@
     
       "@type": "WebSite",
     
-    "name": "Dr Madeleine Antonellos",
+    "name": "Madeleine Antonellos",
     "description": "Research Group - Faculty of Science &amp; IT - CDU Garramilla. This is an ARC-funded project, First Nations AI: Country, Climate, Communication, at Charles Darwin University. Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and its possibilities in climate change communication in remote First Nations communities in northern Australia.",
-    "headline": "Dr Madeleine Antonellos",
+    "headline": "Madeleine Antonellos",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -511,19 +511,19 @@
     
       
         <a
-          href="/projects/"
+          href="/activities/"
           data-tooltip="Software, datasets, and more"
         >
-          Workshops
+          Activities
         </a>
       
     
       
         <a
-          href="/team/"
+          href="/people/"
           data-tooltip="About our team"
         >
-          Team
+          People
         </a>
       
     
@@ -578,7 +578,7 @@
 >
   
 <div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="Dr Madeleine Antonellos">
+  <a class="portrait" data-style="" aria-label="Madeleine Antonellos">
     
       <i class="icon fa-solid fa-glasses"></i>
     
@@ -587,7 +587,7 @@
 
     
       <span class="portrait-name">
-        Dr Madeleine Antonellos
+        Madeleine Antonellos
       </span>
     
 
@@ -661,8 +661,8 @@ Magna eget est lorem ipsum.
 
 
 <p class="center">
-  <a href="/research/?search=%22Dr%20Madeleine%20Antonellos%22%20">
-    Search for Dr Madeleine Antonellos's papers on the Research page
+  <a href="/research/?search=%22Madeleine%20Antonellos%22%20">
+    Search for Madeleine Antonellos's papers on the Research page
   </a>
 </p>
 
@@ -670,8 +670,8 @@ Magna eget est lorem ipsum.
 
 <!--
 <p class="center">
-  <a href="/blog/?search=Dr%20Madeleine%20Antonellos">
-    See Dr Madeleine Antonellos's posts on the Blog page
+  <a href="/blog/?search=Madeleine%20Antonellos">
+    See Madeleine Antonellos's posts on the Blog page
   </a>
 </p>
 -->
