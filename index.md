@@ -55,6 +55,7 @@ View our research activities: From First Nations community-led workshops to publ
 {%
   include feature.html
   image="images/LAM.png"
+  caption="Photo: Jesse Allen, _NASA Earth Observatory image_ using VIIRS data from the Suomi National Polar-orbiting Partnership. Suomi NPP is the result of a partnership between NASA, the National Oceanic and Atmospheric Administration, and the Department of Defense. CCBY4.0 License."
   link="activities"
   title="Activities"
   text=text
@@ -78,6 +79,7 @@ Learn about our research activities: From First Nations community-led workshops 
 {%
   include feature.html
   image="images/DKFloodStudy.png"
+  caption="Photo: Kalkarindji and Daguragu Floodplain Mapping Study. 2015. WRM Water & Environment Pty Ltd. Department of Land Planning and Environment. CCBY4.0 License."
   link="people"
   title="Our People"
   flip=true
