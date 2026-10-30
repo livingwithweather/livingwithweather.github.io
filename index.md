@@ -14,7 +14,7 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
 
 {% capture text %}
 
-View our resources: Published papers and other communications. 
+View our resources: Published papers and other communications.
 
 {%
   include button.html
@@ -25,28 +25,20 @@ View our resources: Published papers and other communications.
   style="bare"
 %}
 
-{%
-  include feature.html
-  image="images/Collage1,jpg"
-    caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
-  link="activities"
-  title="Resources"
-  text=text
-%}
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/LAM.png"
-  link="activities"
-  title="Activities"
+  image="images/Collage1.jpg"
+  caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
+  link="resources"
+  title="Resources"
   text=text
 %}
 
 {% capture text %}
 
-Learn about our research activities: From First Nations community-led workshops to public talks. 
+View our research activities: From First Nations community-led workshops to public talks.
 
 {%
   include button.html
@@ -61,11 +53,9 @@ Learn about our research activities: From First Nations community-led workshops 
 
 {%
   include feature.html
-  image="images/DKFloodStudy.jpg"
-  link="people"
-  title="Our People"
-  flip=true
-  style="bare"
+  image="images/LAM.png"
+  link="activities"
+  title="Activities"
   text=text
 %}
 
@@ -83,3 +73,12 @@ Meet our people: Including our core team of First Nations and Western scholars; 
 %}
 
 {% endcapture %}
+
+{%
+  include feature.html
+  image="images/DKFloodStudy.png"
+  link="people"
+  title="Our People"
+  flip=true
+  text=text
+%}
