@@ -12,46 +12,43 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <div style="max-width: 700px; margin: 2rem auto 0;">
-  <form action="https://formspree.io/f/xoeeloll" method="POST">
-    <div style="margin-bottom: 1rem;">
-      <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Name</label>
+  <form action="https://formspree.io/f/xoeeloll" method="POST" style="display: grid; gap: 1rem;">
+    <div>
+      <label for="name" style="display: block; margin-bottom: 0.5rem; font-family: var(--heading); font-weight: var(--semi-bold);">Name</label>
       <input
         id="name"
         type="text"
         name="name"
         required
-        style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;"
+        style="width: 100%; height: 40px; margin: 0; padding: 5px 10px; border: solid 1px var(--light-gray); border-radius: var(--rounded); background: var(--background); color: var(--text); font-family: inherit; font-size: inherit; appearance: none; box-shadow: var(--shadow); box-sizing: border-box;"
       >
     </div>
 
-    <div style="margin-bottom: 1rem;">
-      <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email</label>
+    <div>
+      <label for="email" style="display: block; margin-bottom: 0.5rem; font-family: var(--heading); font-weight: var(--semi-bold);">Email</label>
       <input
         id="email"
         type="email"
         name="email"
         required
-        style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;"
+        style="width: 100%; height: 40px; margin: 0; padding: 5px 10px; border: solid 1px var(--light-gray); border-radius: var(--rounded); background: var(--background); color: var(--text); font-family: inherit; font-size: inherit; appearance: none; box-shadow: var(--shadow); box-sizing: border-box;"
       >
     </div>
 
-    <div style="margin-bottom: 1rem;">
-      <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
+    <div>
+      <label for="message" style="display: block; margin-bottom: 0.5rem; font-family: var(--heading); font-weight: var(--semi-bold);">Message</label>
       <textarea
         id="message"
         name="message"
         rows="6"
         required
-        style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;"
+        style="width: 100%; min-height: 140px; margin: 0; padding: 8px 10px; border: solid 1px var(--light-gray); border-radius: var(--rounded); background: var(--background); color: var(--text); font-family: inherit; font-size: inherit; appearance: none; box-shadow: var(--shadow); box-sizing: border-box; resize: vertical;"
       ></textarea>
     </div>
 
-    <button
-      type="submit"
-      style="padding: 0.8rem 1.4rem; border: none; border-radius: 6px; background: #1f6feb; color: white; cursor: pointer;"
-    >
-      Send message
-    </button>
+    <div style="display: flex; justify-content: flex-start;">
+      <button class="button" type="submit">Send message</button>
+    </div>
   </form>
 </div>
 
