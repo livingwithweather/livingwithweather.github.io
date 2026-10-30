@@ -12,7 +12,9 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <div style="max-width: 700px; margin: 2rem auto 0;">
-  <form action="https://formspree.io/f/xoeeloll" method="POST" style="display: grid; gap: 1rem;">
+  <form id="contact-form" action="https://formspree.io/f/xoeeloll" method="POST" style="display: grid; gap: 1rem;">
+    <div id="form-status" aria-live="polite" style="display: none; padding: 0.75rem 1rem; border-radius: var(--rounded); background: rgba(0,0,0,0.04); color: var(--text); font-family: var(--heading); font-weight: var(--semi-bold);"></div>
+
     <div>
       <label for="name" style="display: block; margin-bottom: 0.5rem; font-family: var(--heading); font-weight: var(--semi-bold);">Name</label>
       <input
@@ -51,6 +53,49 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </div>
   </form>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('contact-form');
+    var status = document.getElementById('form-status');
+
+    if (!form || !status) return;
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      status.textContent = 'Sending your message...';
+      status.style.display = 'block';
+      status.style.background = 'rgba(0,0,0,0.04)';
+      status.style.color = 'var(--text)';
+
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(function (response) {
+        if (response.ok) {
+          form.reset();
+          form.style.display = 'none';
+          status.textContent = 'Thanks! Your message has been sent.';
+          status.style.background = 'rgba(12, 130, 76, 0.08)';
+          status.style.color = 'var(--primary)';
+          return;
+        }
+
+        throw new Error('Submission failed');
+      })
+      .catch(function () {
+        status.textContent = 'Something went wrong. Please try again or email livingwithweather@outlook.com.';
+        status.style.background = 'rgba(180, 0, 0, 0.05)';
+        status.style.color = 'var(--text)';
+      });
+    });
+  });
+</script>
 
 {%
   include button.html
