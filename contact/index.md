@@ -7,9 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Thank you for your interest in our research. Our team are primarily based at [Charles Darwin University] ([https://www.cdu.edu.au/](https://www.cdu.edu.au/northern-institute/study/phd-master-research), in Garramilla (Darwin, Northern Territory, Australia). 
+
+Key members of our team also contribute remotely from the across Australia (in Naarm (Melbourne, Victoria) and Adelaide, South Australia; and internationally, in Manila (the Phillipines). 
+
+Please feel free to use our contact form below to get in touch. We look forward to hearing from you. 
 
 <div style="max-width: 700px; margin: 2rem auto 0;">
   <form id="contact-form" action="https://formspree.io/f/xoeeloll" method="POST" style="display: grid; gap: 1rem;">
