@@ -1,7 +1,6 @@
 - id: https://doi.org/10.1145/3661455.3669886
   type: paper
-  description: Remote Indigenous communities in northern Australia are experiencing increasingly severe weather hazards due to climate change. Indigenous knowledge practices for weather and climate risk reduction exist alongside Western meteorological and emergency management processes, however cultural and linguistic differences present perennial challenges for communication and understanding between Indigenous communities and the government institutions responsible for keeping people safe. In this paper, we report on our work to create spaces for intercultural engagement on weather, climate, and emergencies, grounded in Indigenous governance and both-ways learning practices. We describe the design and facilitation of two workshops which brought together Indigenous community leaders and government stakeholders to share knowledge and experiences about severe weather, and to discuss better ways of working together to keep people safe. We present these as case studies in the practice of ‘connecting before participation’, and reflect on elements of engagement between Indigenous and non-Indigenous collaborators.
-  date: 2024-8-31
+  description: "Remote Indigenous communities in northern Australia are experiencing increasingly severe weather hazards due to climate change."
   image: images/pdc24vol2-25-fig1.jpg
   buttons:
     - type: source
@@ -18,8 +17,8 @@
 
 - id: https://doi.org/10.1145/3811242.3827554
   type: paper
-  description: We contrast assumptions embedded in AI/ML systems to patterns of repetition in discussions about weather-related risks amongst members of remote First Nations communities. Natural language processing (NLP) is increasingly proposed for use in emergency management. Thus, we analysed how repetition worked as a collaborative practice when participants in First Nations-led workshops in Australia’s Northern Territory talked about planning, responding to, and recovering from cyclones, floods and other extreme weather. Repetition supported shared understanding between languages, reinforced relational accountability, and sustained attention to unresolved issues. Yet, AI systems such as Large Language Models (LLMs) treat repetition as redundancy through dataset deduplication, alignment and preference optimisation, summarisation and compression. This can amplify extant patterns of non-listening in colonial institutions that require First Nations communities to bear the burden of ‘repetitive epistemic labour’ [29] and restate their concerns and knowledge. We conclude that sensitivity to how repetition can suppress meaning is essential in AI/ML design and engineering, especially for intercultural settings where communication is simultaneously informational, relational, and accountable.
-  date: 2026-08-27
+  description: "We contrast assumptions embedded in AI/ML systems to patterns of repetition in discussions about weather-related risks amongst members of remote First Nations communities."
+  image: images/repetition.jpeg
   buttons:
     - type: source
       link: https://dl.acm.org/doi/10.1145/3811242.3827554
@@ -29,7 +28,6 @@
     - type: website
       text: PDF
       link: https://dl.acm.org/doi/pdf/10.1145/3811242.3827554
-  image: images/repetition.jpeg
   tags:
     - Decolonial computing
     - Epistemic sovereignty
