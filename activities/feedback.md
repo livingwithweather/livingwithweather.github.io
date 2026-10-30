@@ -1,8 +1,7 @@
 ---
 title: Feedback
-nav:
-  order: 3
-  tooltip: Community feedback and updates
+nav: false
+permalink: /activities/feedback/
 ---
 
 # {% include icon.html icon="fa-regular fa-comment-dots" %}Feedback
@@ -19,7 +18,7 @@ Community feedback and comments are coming soon.
 
   <div>
     <img
-      src="/images/placeholder-feedback.jpg"
+      src="/images/comingsoon1.jpg"
       alt="Feedback placeholder image"
       style="width: 100%; height: auto; border-radius: 12px; display: block;"
     >
