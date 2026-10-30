@@ -1,13 +1,4 @@
-- title: "First Nations Climate Communication: From AI to VOICE"
-  group: featured
-  date: 2023-05-16
-  subtitle: "Darwin (NT)"
-  image: images/photo.jpg
-  description: "Workshop led by Ian Gumbula and Prof. Steven Bird. 16 May (First Nations leaders), 17-18 May (invited guests), 2023."
-  tags:
-    - workshop
-
-- title: "Living With Weather workshop"
+- title: "2025 | Living With Weather workshop"
   subtitle: "Warruwi (NT)"
   date: 2025-07-01
   group: featured
@@ -16,7 +7,7 @@
   tags:
     - workshop
 
-- title: "Living With Weather: First Nations' Governance Workshop"
+- title: "2024 | Living With Weather: First Nations' Governance Workshop"
   group: featured
   date: 2024-11-12
   subtitle: "Charles Darwin University, Darwin (NT)"
@@ -25,7 +16,7 @@
   tags:
     - workshop
 
-- title: "Weather and Climate Communication Workshop"
+- title: "2023 | Weather and Climate Communication Workshop"
   group: featured
   date: 2023-11-14
   subtitle: "Guluman Child and Family Centre, Ngukurr (NT)"
@@ -34,7 +25,16 @@
   tags:
     - workshop
 
-- title: "Managing Emergencies on Aboriginal Lands"
+- title: "2023 | First Nations Climate Communication: From AI to VOICE"
+  group: featured
+  date: 2023-05-16
+  subtitle: "Darwin (NT)"
+  image: images/photo.jpg
+  description: "Workshop led by Ian Gumbula and Prof. Steven Bird. 16 May (First Nations leaders), 17-18 May (invited guests)."
+  tags:
+    - workshop
+
+- title: "2026 | Managing Emergencies on Aboriginal Lands"
   date: 2026-10-13
   subtitle: "NT Emergency Management Symposium Darwin Convention Centre (NT)"
   image: images/photo.jpg
