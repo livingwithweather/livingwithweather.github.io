@@ -6,8 +6,7 @@ permalink: /activities/feedback/
 
 # {% include icon.html icon="fa-regular fa-comment-dots" %}Feedback
 
-Community feedback and comments are coming soon.
-
+_**COMING SOON**_
 {% include section.html %}
 
 <div style="display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 2rem; align-items: center;">
