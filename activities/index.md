@@ -7,10 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Activities
 
-This page displays information about recent events.
-
-{% include tags.html tags="workshop, talk" %}
-
 {% include search-info.html %}
 
 {% include section.html %}
