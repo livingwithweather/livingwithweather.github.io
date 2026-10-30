@@ -33,6 +33,7 @@ View our resources: Published papers and other communications.
   caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
   link="resources"
   title="Resources"
+  flip=true
   text=text
 %}
 
@@ -61,11 +62,11 @@ View our research activities: From First Nations community-led workshops to publ
 
 {% capture text %}
 
-Meet our people: Including our core team of First Nations and Western scholars; alongside local researchers, leaders and cultural governance experts.
+Learn about our research activities: From First Nations community-led workshops to public talks.
 
 {%
   include button.html
-  link="people"
+  link="activities"
   text="Find out more"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -82,3 +83,18 @@ Meet our people: Including our core team of First Nations and Western scholars; 
   flip=true
   text=text
 %}
+
+{% capture text %}
+
+Meet our people: Including our core team of First Nations and Western scholars; alongside local researchers, leaders and cultural governance experts.
+
+{%
+  include button.html
+  link="people"
+  text="Find out more"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}

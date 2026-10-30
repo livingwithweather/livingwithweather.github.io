@@ -1,30 +1,34 @@
 <div
-  class="feature"
+  class="feature{% if include.flip %} feature-flip{% endif %}"
   {% if include.flip %}
     data-flip
   {% endif %}
 >
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
-    {% endif %}
-    class="feature-image"
-    aria-label="{{ include.title | default: "feature link" | regex_strip }}"
-  >
-    <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      loading="lazy"
-      alt="{{ include.title | default: "feature image" | regex_strip }}"
-      {% include fallback.html %}
-    >
-  </a>
-  {% if include.caption %}
-    <p class="feature-caption">{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-  {% endif %}
   <div class="feature-text">
     {% if include.title %}
       <p class="feature-title">{{ include.title }}</p>
     {% endif %}
     {{ include.text | markdownify }}
+  </div>
+
+  <div class="feature-media">
+    <a
+      {% if include.link %}
+        href="{{ include.link | relative_url | uri_escape }}"
+      {% endif %}
+      class="feature-image"
+      aria-label="{{ include.title | default: "feature link" | regex_strip }}"
+    >
+      <img
+        src="{{ include.image | relative_url | uri_escape }}"
+        loading="lazy"
+        alt="{{ include.title | default: "feature image" | regex_strip }}"
+        {% include fallback.html %}
+      >
+    </a>
+
+    {% if include.caption %}
+      <p class="feature-caption">{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
   </div>
 </div>
