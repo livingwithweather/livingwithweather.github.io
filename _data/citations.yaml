@@ -9,11 +9,11 @@
   - Nicola Bidwell
   - Steven Bird
   publisher: Participatory Design Conference 2024
-  date: '2020-12-04'
+  date: '2024-08-11'
   link: https://dl.acm.org/doi/10.1145/3661455.3669886
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Remote Indigenous communities in northern Australia are experiencing
+    increasingly severe weather hazards due to climate change.
   image: images/pdc24vol2-25-fig1.jpg
   buttons:
   - type: source
@@ -27,7 +27,6 @@
   tags:
   - intercultural communication
   - climate change
-  repo: greenelab/meta-review
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1145/3811242.3827554
@@ -41,11 +40,13 @@
   - Nicola J Bidwell
   publisher: Proceedings of the 2026 ACM SIGCAS/SIGCHI Conference on Computing and
     Sustainable Societies
-  date: '2020-12-04'
+  date: '2026-07-27'
   link: https://dl.acm.org/doi/10.1145/3811242.3827554
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: We contrast assumptions embedded in AI/ML systems to patterns of repetition
+    in discussions about weather-related risks amongst members of remote First Nations
+    communities.
+  image: images/repetition.jpeg
   buttons:
   - type: source
     link: https://dl.acm.org/doi/10.1145/3811242.3827554
@@ -55,6 +56,15 @@
   - type: website
     text: PDF
     link: https://dl.acm.org/doi/pdf/10.1145/3811242.3827554
-  image: images/repetition.jpeg
+  tags:
+  - Decolonial computing
+  - Epistemic sovereignty
+  - Relational listening
+  - Indigenous knowledge systems
+  - Weather communication
+  - Climate resilience
+  - Human-centred AI
+  - Indigenous AI
+  - Language technology
   plugin: sources.py
   file: sources.yaml
