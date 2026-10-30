@@ -39,7 +39,7 @@ View our resources: Published papers and other communications.
 
 {% capture text %}
 
-View our research activities: From First Nations community-led workshops to public talks.
+Discover more about our research activities: From First Nations community-led workshops to public talks.
 
 {%
   include button.html
@@ -63,7 +63,7 @@ View our research activities: From First Nations community-led workshops to publ
 
 {% capture text %}
 
-Learn about our research activities: From First Nations community-led workshops to public talks.
+Meet our people: Including our core team of First Nations and Western scholars; alongside local researchers, leaders and cultural governance experts.
 
 {%
   include button.html
