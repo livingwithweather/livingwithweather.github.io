@@ -2,7 +2,7 @@
 title: Activities
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Workshops, public talks, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Activities
@@ -82,8 +82,8 @@ To be announced.
 <div style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap;">
   <div style="flex: 1 1 0; min-width: 220px;">
     {% include figure.html
-      image="/assets/images/activity-1.jpg"
-      caption="Activity 1"
+      image="/assets/images/activities-1.jpg"
+      caption="Photo: Jens Cheung, _Warruwi Workshop (July 2025)_"
       link="/"
       width="100%"
     %}
@@ -91,8 +91,8 @@ To be announced.
 
   <div style="flex: 1 1 0; min-width: 220px;">
     {% include figure.html
-      image="/assets/images/activity-2.jpg"
-      caption="Activity 2"
+      image="/assets/images/activities-2.jpg"
+      caption="Photo: Jens Cheung, _Warruwi Workshop (July 2025)_"
       link="/"
       width="100%"
     %}
@@ -100,8 +100,8 @@ To be announced.
 
   <div style="flex: 1 1 0; min-width: 220px;">
     {% include figure.html
-      image="/assets/images/activity-3.jpg"
-      caption="Activity 3"
+      image="/assets/images/activities-3.jpg"
+      caption="Photo: Jens Cheung, _Warruwi Workshop (July 2025)_"
       link="/"
       width="100%"
     %}
