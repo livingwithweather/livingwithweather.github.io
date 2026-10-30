@@ -40,34 +40,40 @@
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
- <nav>
-  {% assign pages = site.pages
-    | where_exp: "page", "page.nav"
-    | sort: "nav.order"
-  %}
-  {% for page in pages %}
-    {% if page.nav %}
-      {% if page.url == "/activities/" %}
-        <div class="nav-item nav-dropdown">
+  <nav>
+    {% assign pages = site.pages
+      | where_exp: "page", "page.nav"
+      | sort: "nav.order"
+    %}
+    {% for page in pages %}
+      {% if page.nav %}
+        {% assign is_activities = page.url == "/activities/" or page.url == "/activities/index.html" %}
+        {% assign is_feedback = page.url == "/activities/feedback/" or page.url == "/activities/feedback.html" %}
+
+        {% if is_activities %}
+          <div class="nav-item nav-dropdown">
+            <a
+              href="{{ page.url | relative_url | uri_escape }}"
+              class="nav-parent"
+              data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+            >
+              {{ page.title }}
+            </a>
+            <div class="nav-submenu">
+              <a href="{{ "/activities/feedback/" | relative_url | uri_escape }}">Feedback</a>
+            </div>
+          </div>
+        {% elsif is_feedback %}
+          {% continue %}
+        {% else %}
           <a
             href="{{ page.url | relative_url | uri_escape }}"
-            class="nav-parent"
             data-tooltip="{{ page.nav.tooltip | xml_escape }}"
           >
             {{ page.title }}
           </a>
-          <div class="nav-submenu">
-            <a href="{{ "/activities/feedback/" | relative_url | uri_escape }}">Feedback</a>
-          </div>
-        </div>
-      {% elsif page.url != "/activities/feedback/" %}
-        <a
-          href="{{ page.url | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-        >
-          {{ page.title }}
-        </a>
+        {% endif %}
       {% endif %}
-    {% endif %}
-  {% endfor %}
-</nav>
+    {% endfor %}
+  </nav>
+</header>
