@@ -41,38 +41,17 @@
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav>
-    {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
-      | sort: "nav.order"
-    %}
-    {% for page in pages %}
-      {% if page.nav %}
-        {% assign is_activities = page.url == "/activities/" or page.url == "/activities/index.html" %}
-        {% assign is_feedback = page.url == "/activities/feedback/" or page.url == "/activities/feedback.html" %}
+    <a href="{{ "/resources/" | relative_url | uri_escape }}">Resources</a>
 
-        {% if is_activities %}
-          <div class="nav-item nav-dropdown">
-            <a
-              href="{{ page.url | relative_url | uri_escape }}"
-              class="nav-parent"
-              data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-            >
-              {{ page.title }}
-            </a>
-            <div class="nav-submenu">
-              <a href="{{ "/activities/feedback/" | relative_url | uri_escape }}">Feedback</a>
-            </div>
-          </div>
-        {% elsif is_feedback %}
-        {% else %}
-          <a
-            href="{{ page.url | relative_url | uri_escape }}"
-            data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-          >
-            {{ page.title }}
-          </a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+    <div class="nav-item nav-dropdown">
+      <a href="{{ "/activities/" | relative_url | uri_escape }}" class="nav-parent">Activities</a>
+      <div class="nav-submenu">
+        <a href="{{ "/activities/feedback/" | relative_url | uri_escape }}">Feedback</a>
+      </div>
+    </div>
+
+    <a href="{{ "/people/" | relative_url | uri_escape }}">People</a>
+    <a href="{{ "/blog/" | relative_url | uri_escape }}">Blog</a>
+    <a href="{{ "/contact/" | relative_url | uri_escape }}">Contact</a>
   </nav>
 </header>
