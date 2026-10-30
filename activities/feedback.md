@@ -18,7 +18,7 @@ Community feedback and comments are coming soon.
 
   <div>
     <img
-      src="/images/coming-soon.jpg"
+      src="/images/coming-soon1.jpg"
       style="width: 100%; height: auto; border-radius: 12px; display: block;"
     >
   </div>
