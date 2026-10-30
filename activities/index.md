@@ -26,9 +26,9 @@ To be announced.
   {% for item in workshops %}
     <li>
       {% if item.link %}
-        <a href="{{ item.link | relative_url | uri_escape }}">{{ item.title }}</a>
+        <a href="{{ item.link | relative_url | uri_escape }}"><strong>{{ item.title }}</strong></a>
       {% else %}
-        {{ item.title }}
+        <strong>{{ item.title }}</strong>
       {% endif %}
       {% if item.date or item.subtitle %}
         <br>
@@ -36,7 +36,7 @@ To be announced.
           {{ item.date | date: "%d %B %Y" }}
         {% endif %}
         {% if item.subtitle %}
-          {% if item.date %} — {% endif %}{{ item.subtitle }}
+          {% if item.date %} — {% endif %}<em>{{ item.subtitle }}</em>
         {% endif %}
       {% endif %}
       {% if item.description %}
@@ -55,9 +55,9 @@ To be announced.
   {% for item in talks %}
     <li>
       {% if item.link %}
-        <a href="{{ item.link | relative_url | uri_escape }}">{{ item.title }}</a>
+        <a href="{{ item.link | relative_url | uri_escape }}"><strong>{{ item.title }}</strong></a>
       {% else %}
-        {{ item.title }}
+        <strong>{{ item.title }}</strong>
       {% endif %}
       {% if item.date or item.subtitle %}
         <br>
@@ -65,7 +65,7 @@ To be announced.
           {{ item.date | date: "%d %B %Y" }}
         {% endif %}
         {% if item.subtitle %}
-          {% if item.date %} — {% endif %}{{ item.subtitle }}
+          {% if item.date %} — {% endif %}<em>{{ item.subtitle }}</em>
         {% endif %}
       {% endif %}
       {% if item.description %}
