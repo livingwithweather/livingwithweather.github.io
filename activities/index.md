@@ -30,8 +30,14 @@ To be announced.
       {% else %}
         {{ item.title }}
       {% endif %}
-      {% if item.subtitle %}
-        <br>{{ item.subtitle }}
+      {% if item.date or item.subtitle %}
+        <br>
+        {% if item.date %}
+          {{ item.date | date: "%d %B %Y" }}
+        {% endif %}
+        {% if item.subtitle %}
+          {% if item.date %} — {% endif %}{{ item.subtitle }}
+        {% endif %}
       {% endif %}
       {% if item.description %}
         <br>{{ item.description }}
@@ -53,8 +59,14 @@ To be announced.
       {% else %}
         {{ item.title }}
       {% endif %}
-      {% if item.subtitle %}
-        <br>{{ item.subtitle }}
+      {% if item.date or item.subtitle %}
+        <br>
+        {% if item.date %}
+          {{ item.date | date: "%d %B %Y" }}
+        {% endif %}
+        {% if item.subtitle %}
+          {% if item.date %} — {% endif %}{{ item.subtitle }}
+        {% endif %}
       {% endif %}
       {% if item.description %}
         <br>{{ item.description }}
@@ -67,23 +79,31 @@ To be announced.
 
 ## Gallery
 
-{% include figure.html
-  image="/assets/images/activity-1.jpg"
-  caption="Activity 1"
-  link="/"
-  width="100%"
-%}
+<div style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap;">
+  <div style="flex: 1 1 0; min-width: 220px;">
+    {% include figure.html
+      image="/assets/images/activity-1.jpg"
+      caption="Activity 1"
+      link="/"
+      width="100%"
+    %}
+  </div>
 
-{% include figure.html
-  image="/assets/images/activity-2.jpg"
-  caption="Activity 2"
-  link="/"
-  width="100%"
-%}
+  <div style="flex: 1 1 0; min-width: 220px;">
+    {% include figure.html
+      image="/assets/images/activity-2.jpg"
+      caption="Activity 2"
+      link="/"
+      width="100%"
+    %}
+  </div>
 
-{% include figure.html
-  image="/assets/images/activity-3.jpg"
-  caption="Activity 3"
-  link="/"
-  width="100%"
-%}
+  <div style="flex: 1 1 0; min-width: 220px;">
+    {% include figure.html
+      image="/assets/images/activity-3.jpg"
+      caption="Activity 3"
+      link="/"
+      width="100%"
+    %}
+  </div>
+</div>
