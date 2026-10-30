@@ -14,7 +14,7 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
 
 {% capture text %}
 
-View our resources: Published papers and other communications.
+Published research and public resources for communities, educators, and researchers.
 
 {%
   include button.html
@@ -30,7 +30,7 @@ View our resources: Published papers and other communications.
 {%
   include feature.html
   image="images/Collage1.jpg"
-  caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November 2024. Used with permission."
+  caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November, 2024. Used with permission."
   link="resources"
   title="Resources"
   flip=true
@@ -39,12 +39,12 @@ View our resources: Published papers and other communications.
 
 {% capture text %}
 
-Discover more about our research activities: From First Nations community-led workshops to public talks.
+Community-led workshops and public talks, shaped by the communities we work alongside.
 
 {%
   include button.html
   link="activities"
-  text="Find out more"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -55,7 +55,7 @@ Discover more about our research activities: From First Nations community-led wo
 {%
   include feature.html
   image="images/LAM.png"
-  caption="Photo: Jesse Allen, _NASA Earth Observatory image_ using VIIRS data from the Suomi National Polar-orbiting Partnership. Suomi NPP is the result of a partnership between NASA, the National Oceanic and Atmospheric Administration, and the Department of Defense. CCBY4.0 License."
+  caption="Photo: Jesse Allen, _NASA Earth Observatory image using VIIRS data from the Suomi National Polar-orbiting Partnership_. 19 February, 2015. CCBY4.0 License."
   link="activities"
   title="Activities"
   text=text
@@ -63,12 +63,12 @@ Discover more about our research activities: From First Nations community-led wo
 
 {% capture text %}
 
-Meet our people: Including our core team of First Nations and Western scholars; alongside local researchers, leaders and cultural governance experts.
+Meet the researchers and community partners behind our work.
 
 {%
   include button.html
   link="activities"
-  text="Find out more"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -79,7 +79,7 @@ Meet our people: Including our core team of First Nations and Western scholars; 
 {%
   include feature.html
   image="images/DKFloodStudy.png"
-  caption="Photo: Kalkarindji and Daguragu Floodplain Mapping Study. 2015. WRM Water & Environment Pty Ltd. Department of Land Planning and Environment. CCBY4.0 License."
+  caption="Photo: Department of Land Planning and Environment and WRM Water & Environment Pty Ltd. _Kalkarindji and Daguragu Floodplain Mapping Study_. 13 March, 2015. CCBY4.0 License."
   link="people"
   title="Our People"
   flip=true
@@ -93,7 +93,7 @@ Meet our people: Including our core team of First Nations and Western scholars; 
 {%
   include button.html
   link="people"
-  text="Find out more"
+  text="Learn more"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
