@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Thank you for your interest in our research. Our team are primarily based at [Charles Darwin University] ([https://www.cdu.edu.au/](https://www.cdu.edu.au/northern-institute/study/phd-master-research), in Garramilla (Darwin, Northern Territory, Australia). 
+Thank you for your interest in our research. Our team are primarily based at [Charles Darwin University] ([https://www.cdu.edu.au/](https://www.cdu.edu.au/northern-institute/study/phd-master-research), in Garramilla (Darwin, Northern Territory, Australia).
 
-Key members of our team also contribute remotely from the across Australia (in Naarm (Melbourne, Victoria) and Adelaide, South Australia; and internationally, in Manila (the Phillipines). 
+Key members of our team also contribute remotely from across Australia (in Naarm (Melbourne, Victoria) and Adelaide, South Australia; and internationally, in Manila (the Philippines). 
 
 Please feel free to use our contact form below to get in touch. We look forward to hearing from you. 
 
@@ -54,6 +54,14 @@ Please feel free to use our contact form below to get in touch. We look forward 
       <button class="button" type="submit">Send message</button>
     </div>
   </form>
+</div>
+
+<div style="max-width: 700px; margin: 1.5rem auto 0;">
+  <img
+    src="/images/contact2.jpg"
+    alt="Contact page image"
+    style="width: 100%; height: auto; display: block; border-radius: var(--rounded);"
+  >
 </div>
 
 <script>
