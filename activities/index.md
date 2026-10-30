@@ -82,7 +82,7 @@ To be announced.
 <div style="display: flex; gap: 1rem; align-items: stretch; flex-wrap: wrap;">
   <div style="flex: 1 1 0; min-width: 220px;">
     {% include figure.html
-      image="/assets/images/Warruwi1.jpg"
+      image="/images/Warruwi1.jpg"
       caption="Photo: Jens Cheung, _Warruwi Workshop (July 2025)_"
       link="/"
       width="100%"
@@ -91,7 +91,7 @@ To be announced.
 
   <div style="flex: 1 1 0; min-width: 220px;">
     {% include figure.html
-      image="/assets/images/Warruwi2.jpg"
+      image="/images/Warruwi2.jpg"
       caption="Photo: Jens Cheung, _Warruwi Workshop (July 2025)_"
       link="/"
       width="100%"
@@ -100,7 +100,7 @@ To be announced.
 
   <div style="flex: 1 1 0; min-width: 220px;">
     {% include figure.html
-      image="/assets/images/Warruwi3.jpg"
+      image="/images/Warruwi3.jpg"
       caption="Photo: Jens Cheung, _Warruwi Workshop (July 2025)_"
       link="/"
       width="100%"
