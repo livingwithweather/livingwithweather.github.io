@@ -30,8 +30,11 @@ To be announced.
       {% else %}
         {{ item.title }}
       {% endif %}
+      {% if item.subtitle %}
+        <br>{{ item.subtitle }}
+      {% endif %}
       {% if item.description %}
-        — {{ item.description }}
+        <br>{{ item.description }}
       {% endif %}
     </li>
   {% endfor %}
@@ -41,7 +44,24 @@ To be announced.
 
 ## Past Talks
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% assign talks = site.data.projects | where_exp: "item", "item.group != 'featured'" %}
+<ul>
+  {% for item in talks %}
+    <li>
+      {% if item.link %}
+        <a href="{{ item.link | relative_url | uri_escape }}">{{ item.title }}</a>
+      {% else %}
+        {{ item.title }}
+      {% endif %}
+      {% if item.subtitle %}
+        <br>{{ item.subtitle }}
+      {% endif %}
+      {% if item.description %}
+        <br>{{ item.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
 {% include section.html %}
 
