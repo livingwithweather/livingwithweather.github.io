@@ -9,7 +9,7 @@ nav:
 
 Thank you for your interest in our research. Our team are primarily based at [Charles Darwin University](https://www.cdu.edu.au/northern-institute/study/phd-master-research), in Garramilla (Darwin, Northern Territory, Australia).
 
-Key members of our team also contribute remotely from across Australia - in Naarm (Melbourne, VIC) and Kaurna (Adelaide, SA) - as well as internationally, in Manila (the Philippines). 
+Key members of our team also contribute remotely from across Australia - in Naarm (Melbourne, VIC) and Kaurna (Adelaide, SA) - as well as internationally from Manila (the Philippines). 
 
 Please feel free to use our contact form below to get in touch. We look forward to hearing from you. 
 
