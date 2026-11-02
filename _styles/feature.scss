@@ -7,8 +7,8 @@ $wrap: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin: 40px 0;
+  gap: 28px;
+  margin: 28px 0;
 }
 
 .feature-text {
@@ -46,10 +46,10 @@ $wrap: 800px;
 }
 
 .feature-title {
-  font-size: var(--large);
+  font-size: 1.05rem;
   text-align: center;
   font-family: var(--heading);
-  font-weight: var(--semi-bold);
+  font-weight: var(--regular);
 }
 
 .feature-flip .feature-text {
