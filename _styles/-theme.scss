@@ -27,9 +27,12 @@
   --workshop-year: #a6bd9d;
 }
 
-// Editorial year labels on the Activities page
+// Editorial year labels on the Activities and Resources pages
+.year-heading,
 h3[style*="font-size: 1.15em"] {
+  margin: 1em 0 0.4em;
   color: var(--workshop-year);
+  font-size: 1.15em;
   font-weight: var(--semi-bold);
   letter-spacing: 0.02em;
 }
