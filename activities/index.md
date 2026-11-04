@@ -26,7 +26,7 @@ To be announced.
   {% assign yearly_workshops = workshops | where_exp: "item", "item.title contains year_prefix" %}
   {% if yearly_workshops.size > 0 %}
 
-### {{ year }}
+<h3 style="font-size: 1.15em; margin: 1em 0 0.4em;">{{ year }}</h3>
 
 <ul>
   {% for item in yearly_workshops %}
