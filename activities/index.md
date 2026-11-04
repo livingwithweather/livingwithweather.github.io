@@ -46,8 +46,6 @@ To be announced.
 
 {% include section.html %}
 
-## Past Talks
-
 {% assign talks = site.data.projects | where_exp: "item", "item.group != 'featured'" %}
 <ul>
   {% for item in talks %}
