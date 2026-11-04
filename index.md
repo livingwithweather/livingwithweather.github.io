@@ -6,7 +6,7 @@ title: Home
 
 ---
 
-This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/), at Charles Darwin University. Together, our team of Indigenous and Western scholars aims to develop a systematic account of Artificial Intelligence (AI) and its possibilities in climate change communication in remote First Nations communities in northern Australia. Working under Indigenous governance, we are establishing spaces for Indigenous landowners and scientists to come together to probe diverse AI techniques for making sense of climate predictions and risks. We will build the capacity of Indigenous people to conceive and design AI, accounting for divergent languages and knowledge systems. This is expected to lead to more effective and trustworthy communications about extreme weather and climate change, improving the preparedness and responses of remote First Nations communities.
+This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate, Communication](https://researchers.cdu.edu.au/en/projects/dp240101952-first-nations-ai-country-climate-communication/)[...]
 
 {% include section.html %}
 
@@ -14,7 +14,7 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
 
 {% capture text %}
 
-Published research and public resources for communities, educators, and researchers.
+<p style="text-align: center;">Published research and public resources for communities, educators, and researchers.</p>
 
 {%
   include button.html
@@ -33,13 +33,14 @@ Published research and public resources for communities, educators, and research
   caption="Photos: Colin Hall, _Cyclone is coming to Ngukurr from the gulf of Carpentaria_, 25 November, 2024. Used with permission."
   link="resources"
   title="Resources"
+  bold_title=true
   flip=true
   text=text
 %}
 
 {% capture text %}
 
-Community-led workshops and public talks, shaped by the communities we work alongside.
+<p style="text-align: center;">Community-led workshops and public talks, shaped by the communities we work alongside.</p>
 
 {%
   include button.html
@@ -58,12 +59,13 @@ Community-led workshops and public talks, shaped by the communities we work alon
   caption="Photo: Jesse Allen, _NASA Earth Observatory image using VIIRS data from the Suomi National Polar-orbiting Partnership_. 19 February, 2015. CCBY4.0 License."
   link="activities"
   title="Activities"
+  bold_title=true
   text=text
 %}
 
 {% capture text %}
 
-Meet the researchers and community partners behind our work.
+<p style="text-align: center;">Meet the researchers and community partners behind our work.</p>
 
 {%
   include button.html
@@ -82,6 +84,7 @@ Meet the researchers and community partners behind our work.
   caption="Photo: Department of Land Planning and Environment and WRM Water & Environment Pty Ltd. _Kalkarindji and Daguragu Floodplain Mapping Study_. 13 March, 2015. CCBY4.0 License."
   link="people"
   title="Our People"
+  bold_title=true
   flip=true
   text=text
 %}

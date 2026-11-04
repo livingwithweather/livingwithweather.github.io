@@ -6,7 +6,7 @@
 >
   <div class="feature-text">
     {% if include.title %}
-      <p class="feature-title">{{ include.title }}</p>
+      <p class="feature-title">{% if include.bold_title %}<strong>{% endif %}{{ include.title }}{% if include.bold_title %}</strong>{% endif %}</p>
     {% endif %}
     {{ include.text | markdownify }}
   </div>
