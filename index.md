@@ -34,6 +34,7 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
   link="resources"
   title="Resources"
   bold_title=true
+  center_text=true
   flip=true
   text=text
 %}
@@ -60,6 +61,7 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
   link="activities"
   title="Activities"
   bold_title=true
+  center_text=true
   text=text
 %}
 
@@ -85,6 +87,7 @@ This is an ARC-funded project, DP240101952: [First Nations AI - Country, Climate
   link="people"
   title="Our People"
   bold_title=true
+  center_text=true
   flip=true
   text=text
 %}

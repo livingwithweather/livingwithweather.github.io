@@ -4,7 +4,7 @@
     data-flip
   {% endif %}
 >
-  <div class="feature-text">
+  <div class="feature-text{% if include.center_text %} feature-text-center{% endif %}">
     {% if include.title %}
       <p class="feature-title">{% if include.bold_title %}<strong>{% endif %}{{ include.title }}{% if include.bold_title %}</strong>{% endif %}</p>
     {% endif %}
