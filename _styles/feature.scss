@@ -28,6 +28,18 @@ $wrap: 800px;
   margin-bottom: 0.5rem;
 }
 
+.page-intro {
+  text-align: center;
+}
+
+main:has(#contact-form) > section > p {
+  text-align: center;
+}
+
+#contact-form button[type="submit"] {
+  margin-inline: auto;
+}
+
 .feature-media {
   flex: 0 0 40%;
   display: flex;

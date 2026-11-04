@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Activities
 
-Community workshops, interviews, and research activities, along with public talks and speaking events. We are currently preparing a [Feedback](https://livingwithweather.github.io/activities/feedback) page, where participants will provide their thoughts and experiences with the Living With Weather (First Nations AI) project to-date. 
+<p class="page-intro">Community workshops, interviews, and research activities, along with public talks and speaking events. We are currently preparing a [Feedback](https://livingwithweather.github.io/activities/feedback) page, where participants will provide their thoughts and experiences with the Living With Weather (First Nations AI) project to-date.</p>
 
 {% include search-info.html %}
 
