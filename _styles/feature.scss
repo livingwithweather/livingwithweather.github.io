@@ -37,6 +37,8 @@ $wrap: 800px;
 }
 
 main:has(#contact-form) > section > p {
+  max-width: 42rem;
+  margin-inline: auto;
   text-align: center;
 }
 
