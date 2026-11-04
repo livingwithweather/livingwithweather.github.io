@@ -20,13 +20,22 @@ To be announced.
 ## Past Workshops
 
 {% assign workshops = site.data.projects | where: "group", "featured" %}
+{% assign workshop_years = "2025,2024,2023" | split: "," %}
+{% for year in workshop_years %}
+  {% assign year_prefix = year | append: " | " %}
+  {% assign yearly_workshops = workshops | where_exp: "item", "item.title contains year_prefix" %}
+  {% if yearly_workshops.size > 0 %}
+
+### {{ year }}
+
 <ul>
-  {% for item in workshops %}
+  {% for item in yearly_workshops %}
     <li>
+      {% assign display_title = item.title | remove_first: year_prefix %}
       {% if item.link %}
-        <a href="{{ item.link | relative_url | uri_escape }}"><strong>{{ item.title }}</strong></a>
+        <a href="{{ item.link | relative_url | uri_escape }}"><strong>{{ display_title }}</strong></a>
       {% else %}
-        <strong>{{ item.title }}</strong>
+        <strong>{{ display_title }}</strong>
       {% endif %}
       {% if item.date or item.subtitle %}
         <br>
@@ -48,6 +57,8 @@ To be announced.
     </li>
   {% endfor %}
 </ul>
+  {% endif %}
+{% endfor %}
 
 {% assign talks = site.data.projects | where_exp: "item", "item.group != 'featured'" %}
 {% if talks.size > 0 %}
