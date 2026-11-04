@@ -16,6 +16,8 @@ $wrap: 800px;
 }
 
 .feature-text-center {
+  max-width: 32rem;
+  margin-inline: auto;
   text-align: center;
 }
 
@@ -29,6 +31,8 @@ $wrap: 800px;
 }
 
 .page-intro {
+  max-width: 42rem;
+  margin-inline: auto;
   text-align: center;
 }
 
