@@ -126,7 +126,7 @@ nav > a:hover,
 .nav-submenu {
   display: none;
   position: absolute;
-  top: calc(100% + 6px);
+  top: 100%;
   left: 0;
   min-width: 180px;
   background: rgba(0, 0, 0, 0.75);
