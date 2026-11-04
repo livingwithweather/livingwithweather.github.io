@@ -6,7 +6,7 @@ affiliation: Charles Darwin University and Rhodes University
 aliases:
   - Nicola J. Bidwell
 links:
-  home-page: https://nicbidwell.com
+  home-page: 
   orcid: 0000-0001-8713-9213
 ---
 
