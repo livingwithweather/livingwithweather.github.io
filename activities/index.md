@@ -31,7 +31,12 @@ To be announced.
       {% if item.date or item.subtitle %}
         <br>
         {% if item.date %}
-          {{ item.date | date: "%d %B %Y" }}
+          {% assign date_range = item.date | split: " to " %}
+          {% if date_range.size > 1 %}
+            {{ date_range[0] | date: "%-d %B %Y" }} – {{ date_range[1] | date: "%-d %B %Y" }}
+          {% else %}
+            {{ item.date | date: "%d %B %Y" }}
+          {% endif %}
         {% endif %}
         {% if item.subtitle %}
           {% if item.date %} — {% endif %}<em>{{ item.subtitle }}</em>
@@ -61,7 +66,12 @@ To be announced.
         {% if item.date or item.subtitle %}
           <br>
           {% if item.date %}
-            {{ item.date | date: "%d %B %Y" }}
+            {% assign date_range = item.date | split: " to " %}
+            {% if date_range.size > 1 %}
+              {{ date_range[0] | date: "%-d %B %Y" }} – {{ date_range[1] | date: "%-d %B %Y" }}
+            {% else %}
+              {{ item.date | date: "%d %B %Y" }}
+            {% endif %}
           {% endif %}
           {% if item.subtitle %}
             {% if item.date %} — {% endif %}<em>{{ item.subtitle }}</em>
