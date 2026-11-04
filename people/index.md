@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Our Team
 
-<p class="page-intro">Our core research team, working alongside local researchers and cultural governance experts.</p>
+<p class="page-intro page-intro-left">Our core research team, working alongside local researchers and cultural governance experts.</p>
 
 {% include section.html %}
 

@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Resources
 
-<p class="page-intro">Published papers, reports, workshop materials and public resources from Living with Weather, updated as new work becomes available.</p>
+<p class="page-intro page-intro-left">Published papers, reports, workshop materials and public resources from Living with Weather, updated as new work becomes available.</p>
 
 {% include section.html %}
 

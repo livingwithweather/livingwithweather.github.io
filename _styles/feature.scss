@@ -36,10 +36,14 @@ $wrap: 800px;
   text-align: center;
 }
 
+.page-intro-left {
+  text-align: left;
+}
+
 main:has(#contact-form) > section > p {
   max-width: 42rem;
   margin-inline: auto;
-  text-align: center;
+  text-align: left;
 }
 
 #contact-form button[type="submit"] {
