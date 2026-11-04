@@ -12,6 +12,7 @@
   --gray: #6d6d6d;
   --dark-gray: #3a3a3a;
   --overlay: #00000018;
+  --workshop-year: #40583f;
 }
 [data-dark="true"] {
   --primary: #7ccaf4;
@@ -23,6 +24,14 @@
   --gray: #a5a5a5;
   --dark-gray: #d6d6d6;
   --overlay: #ffffff10;
+  --workshop-year: #a6bd9d;
+}
+
+// Editorial year labels on the Activities page
+h3[style*="font-size: 1.15em"] {
+  color: var(--workshop-year);
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.02em;
 }
 
 :root {
