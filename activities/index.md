@@ -44,32 +44,36 @@ To be announced.
   {% endfor %}
 </ul>
 
-{% include section.html %}
-
 {% assign talks = site.data.projects | where_exp: "item", "item.group != 'featured'" %}
-<ul>
-  {% for item in talks %}
-    <li>
-      {% if item.link %}
-        <a href="{{ item.link | relative_url | uri_escape }}"><strong>{{ item.title }}</strong></a>
-      {% else %}
-        <strong>{{ item.title }}</strong>
-      {% endif %}
-      {% if item.date or item.subtitle %}
-        <br>
-        {% if item.date %}
-          {{ item.date | date: "%d %B %Y" }}
+{% if talks.size > 0 %}
+  {% include section.html %}
+
+  ## Past Talks
+
+  <ul>
+    {% for item in talks %}
+      <li>
+        {% if item.link %}
+          <a href="{{ item.link | relative_url | uri_escape }}"><strong>{{ item.title }}</strong></a>
+        {% else %}
+          <strong>{{ item.title }}</strong>
         {% endif %}
-        {% if item.subtitle %}
-          {% if item.date %} — {% endif %}<em>{{ item.subtitle }}</em>
+        {% if item.date or item.subtitle %}
+          <br>
+          {% if item.date %}
+            {{ item.date | date: "%d %B %Y" }}
+          {% endif %}
+          {% if item.subtitle %}
+            {% if item.date %} — {% endif %}<em>{{ item.subtitle }}</em>
+          {% endif %}
         {% endif %}
-      {% endif %}
-      {% if item.description %}
-        <br>{{ item.description }}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+        {% if item.description %}
+          <br>{{ item.description }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
 {% include section.html %}
 
